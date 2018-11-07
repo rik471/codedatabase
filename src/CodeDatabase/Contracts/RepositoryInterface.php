@@ -4,7 +4,7 @@
 namespace CodePress\CodeDatabase\Contracts;
 
 
-interface RespositoryInterface
+interface RepositoryInterface
 {
     public function all($columns = array('*'));
 
