@@ -50,14 +50,14 @@ class CategoryRepositoryTest extends AbstractTestCase
         $this->assertInstanceOf(Category::class, $result);
     }
 
-    /*public function test_can_list_all_categories()
+    public function test_can_list_all_categories()
     {
         $result = $this->repository->all();
         $this->assertCount(3, $result);
 
         $result = $this->repository->all(['name']);
         $this->assertNotNull($result[0]->description);
-    }*/
+    }
 
     public function test_can_create_all_categories()
     {
