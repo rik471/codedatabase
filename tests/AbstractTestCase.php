@@ -9,7 +9,7 @@ abstract class AbstractTestCase extends TestCase
     public function migrate()
     {
         $this->artisan('migrate', [
-            '--path' => realpath(__DIR__ . '/resources/migrations')
+            '--path' => '../../../../tests/resources/migrations'
         ]);
     }
 
