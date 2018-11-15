@@ -1,5 +1,5 @@
 {
-  "name": "code_press/codedatabase",
+  "name": "rik471/codedatabase",
   "require": {
     "illuminate/database":"~5.2"
   },
