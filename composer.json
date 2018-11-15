@@ -1,5 +1,5 @@
 {
-  "name": "codepress/code-database",
+  "name": "code_press/codedatabase",
   "require": {
     "illuminate/database":"~5.2"
   },
