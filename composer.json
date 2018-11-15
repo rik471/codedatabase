@@ -1,5 +1,19 @@
 {
   "name": "rik471/codedatabase",
+  "description": "Project built in studying process, Laravel based pattern repository",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "TDD",
+    "repository",
+    "criteria"
+  ],
+  "authors": [
+    {
+      "name":"Rickson G Oliveira",
+      "email": "riksongleison471@gmail.com"
+    }
+  ],
   "require": {
     "illuminate/database":"~5.2"
   },
